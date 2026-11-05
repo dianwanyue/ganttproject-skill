@@ -23,7 +23,7 @@
 WorkBuddy（用户级，推荐）：
 
 ```bash
-git clone https://github.com/<your-name>/ganttproject-skill.git ~/.workbuddy/skills/ganttproject
+git clone https://github.com/dianwanyue/ganttproject-skill.git ~/.workbuddy/skills/ganttproject
 ```
 
 项目级：克隆到 `<项目>/.workbuddy/skills/ganttproject`。
