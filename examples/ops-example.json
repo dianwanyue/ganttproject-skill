@@ -1,0 +1,64 @@
+{
+  "project": {
+    "name": "示例项目：移动端应用开发",
+    "company": "示例公司"
+  },
+  "ops": [
+    {
+      "op": "update",
+      "task": 1,
+      "fields": {
+        "name": "后端核心接口",
+        "duration": 25,
+        "progress": 35,
+        "notes": "增加一周联调缓冲"
+      }
+    },
+    {
+      "op": "add",
+      "name": "性能压测与调优",
+      "after": 6,
+      "duration": 4,
+      "priority": "high"
+    },
+    {
+      "op": "add",
+      "name": "阶段B-上线准备",
+      "start": "2027-01-06",
+      "duration": 3
+    },
+    {
+      "op": "add",
+      "name": "发布评审",
+      "parent": "阶段B-上线准备",
+      "start": "2027-01-06",
+      "duration": 1
+    },
+    {
+      "op": "add",
+      "name": "上线发布",
+      "parent": "阶段B-上线准备",
+      "start": "2027-01-07",
+      "duration": 2
+    },
+    {
+      "op": "depend",
+      "task": 5,
+      "predecessor": 8,
+      "type": "FS",
+      "lag": 1,
+      "hardness": "Strong"
+    },
+    {
+      "op": "assign",
+      "task": 3,
+      "resource": "张三",
+      "load": 80,
+      "responsible": true
+    },
+    {
+      "op": "delete",
+      "task": 15
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 运行产物
+*.bak-*
+*.gan.tmp
+*.log
